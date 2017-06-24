@@ -1,0 +1,19 @@
+{
+  "name": "csh-ratingapp",
+  "version": "1.0.0",
+  "description": "app to rate soccer players based on performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrodrguez08/CSH-RatingApp.git"
+  },
+  "author": "Jorge Rodriguez Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrodrguez08/CSH-RatingApp/issues"
+  },
+  "homepage": "https://github.com/jrodrguez08/CSH-RatingApp#readme"
+}
