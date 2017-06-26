@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import routes from './server/routes';
+import routes from './server/routes/index';
 import mongoose from 'mongoose';
 
 const app = express();
@@ -20,7 +20,7 @@ app.use(bodyParser.json({
 routes(app);
 
 app.listen(port, function () {
-  console.log(`listening for localhost: ${port}`);
+  console.log(`listening for localhost in port ${port}`);
 });
 
-mongoose.connect('db');
+mongoose.connect('mongodb://localhost:27017/random');

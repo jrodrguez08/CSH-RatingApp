@@ -22,8 +22,7 @@ export default function(res, func, params) {
     })
     .catch(err => {
       // Log the error to get a more traceable info
-      console.log(JSON.stringify(err, 0, 4));
-
+      console.log(err, 0, 4);
       res.json({
         'status': 'error',
         'message': err.message,
